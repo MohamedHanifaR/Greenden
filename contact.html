@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <link rel="icon" href="./images/logo-greenden.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="p-0 m-0">
+    <!--Nav Bar-->
+    <div class="sticky top-0 z-10">
+        <div class="p-2 text-sm bg-yellow-300 text-green-700 flex justify-around items-center cursor-pointer">
+            <p>Free Delivery Above ₹499 | Shop Now</p>
+            <p class="hidden md:block">Get 10% Off On ₹1499+ | Use: SAVE10</p>
+            <P class="hidden md:block">Save More On Our App | Download Now</P>
+        </div>
+        <nav class="p-3 bg-green-100 flex justify-between shadow-xl">
+            <h2 class="text-2xl">Greenden</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 cursor-pointer md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <ul class="flex gap-5 text-gray-500 cursor-pointer hidden md:flex">
+                <li class="hover:underline hover:text-black"><a href="./index.html">Home</a></li>
+                <li class="hover:underline hover:text-black"><a href="./about.html">About Us</a></li>
+                <li class="hover:underline hover:text-black"><a href="./products.html">Products</a></li>
+                <li class="hover:text-black"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>
+                </li>
+                <li class="hover:text-black"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!--Header Image-->
+    <div>
+        <img src="./images/header-image-contactus.png" alt="Header Image">
+    </div>
+
+    <!--Contact Us-->
+    <section class="px-5 md:px-20 py-5 mt-10 mb-10 flex flex-col md:flex-row justify-between gap-10">
+        <div class="p-2 flex flex-col justify-center gap-5 flex-grow">
+            <h2 class="text-2xl text-center">Get in touch</h2>
+            <input type="text" placeholder="Name" class="border border-gray-400 p-2" style="width: 100%;">
+            <input type="email" placeholder="Email" class="border border-gray-400 p-2" style="width: 100%;">
+            <input type="tel" placeholder="Phone Number" class="border border-gray-400 p-2" style="width: 100%;">
+            <textarea placeholder="Comment" rows="5" class="border border-gray-400 p-2" style="width: 100%;"></textarea>            
+            <button class="p-2 border rounded bg-green-800 text-white text-xl">SEND MESSAGE</button>
+        </div>
+        <div style="width: 500px;">
+            <div>
+                <h2 class="mb-2 text-xl">Name</h2>
+                <p class="mb-5">Greenden Agritech Pvt Ltd</p>
+            </div>
+            <div>
+                <h2 class="mb-2 text-xl">Address</h2>
+                <p>#6, Second Floor, Dr.Moorthy Road,</p>
+                <p class="mb-1">Kumbakonam - 612001.</p>
+                <p class="mb-5">Telephone : +91-7339330000</p>
+            </div>
+            <div>
+                <h2 class="mb-2 text-xl">Grievance Redressal Officer:</h2>
+                <p class="mb-1">Mohamed Hanifa</p>
+                <p class="mb-5">mohamed.hanifa@greenden.com</p>
+            </div>
+            <div>
+                <h2 class="mb-3 text-xl">Follow us</h2>
+                <div class="flex justify-start gap-5">
+                    <i class="fa-brands fa-facebook text-3xl transform hover:scale-150"></i>
+                    <i class="fa-brands fa-x-twitter text-3xl transform hover:scale-150"></i>
+                    <i class="fa-brands fa-pinterest text-3xl transform hover:scale-150"></i>
+                    <i class="fa-brands fa-instagram text-3xl transform hover:scale-150"></i>
+                    <i class="fa-brands fa-youtube text-3xl transform hover:scale-150"></i>
+                    <i class="fa-brands fa-tiktok text-3xl transform hover:scale-150"></i>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!--Enquiry-->
+    <section class="px-5 md:px-20 py-5 mt-10 mb-10 grid grid-cols-1 md:grid-cols-2 justify-center gap-5 md:gap-10">
+        <div class="p-5 bg-gray-100 flex flex-col gap-2">
+            <h2 class="text-xl">Customer service</h2>
+            <p class="text-sm">WhatsApp us at: 7339331111</p>
+            <p class="text-sm">Call: +91-7339330000</p>
+            <p class="text-sm">Email: support@greenden.com</p>
+        </div>
+        <div class="p-5 bg-gray-100 flex flex-col gap-2">
+            <h2 class="text-xl">Bulk/Corporate Enquiry</h2>
+            <p class="text-sm">Contact Person - Corporate Gifting Executive</p>
+            <p class="text-sm">Contact No - 7339332222</p>
+            <p class="text-sm">Email - gifting@greenden.com, vishal@greenden.com</p>
+        </div>
+        <div class="p-5 bg-gray-100 flex flex-col gap-2">
+            <h2 class="text-xl">Gardening Services Enquiry</h2>
+            <p class="text-sm">Contact No - 7339334444</p>
+            <p class="text-sm">Email - services@greenden.com</p>
+        </div>
+        <div class="p-5 bg-gray-100 flex flex-col gap-2">
+            <h2 class="text-xl">Franchise Enquiry</h2>
+            <p class="text-sm">Contact Person - Mr. Vinoth</p>
+            <p class="text-sm">Contact No - 7339335555</p>
+            <p class="text-sm">Email - vinoth@greenden.com</p>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <section class="p-10 bg-green-100">
+        <h2 class="text-3xl font-bold mb-5">Greenden</h2>
+        <p class="text-sm mb-5">© 2021 greenden.com All Rights Reserved.</p>
+        <p>Made with 💚 for plant lovers.</p>
+    </section>
+
+</body>
+
+</html>
