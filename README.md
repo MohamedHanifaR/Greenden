@@ -4,7 +4,7 @@ A responsive and modern website for selling indoor plants, built using **HTML5**
 
 ## 🛒 Live Demo
 
-[View Website](https://your-live-site-link.com)
+[View Website](https://mohamedhanifar.github.io/Greenden/)
 
 ---
 
@@ -30,7 +30,7 @@ A responsive and modern website for selling indoor plants, built using **HTML5**
 
 ## 📁 Folder Structure
 
-/indoor-plant-website
+/Greenden
 │
 ├── index.html
 ├── about.html
